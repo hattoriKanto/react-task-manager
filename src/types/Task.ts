@@ -6,3 +6,15 @@ export interface Task {
   completed: boolean;
   new: boolean;
 }
+
+export interface NewTask {
+  title: string;
+  category: string;
+  date: Date;
+}
+
+export interface TaskToUpdate {
+  id: number;
+  completed: boolean;
+  new: boolean;
+}
